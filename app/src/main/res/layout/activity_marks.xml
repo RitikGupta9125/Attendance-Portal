@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/first">
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Marks"
+            android:textSize="32dp"
+            android:textAlignment="center"
+            android:textColor="#6b6b6b"
+            android:textStyle="bold"/>
+    </LinearLayout>
+<LinearLayout
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="10dp">
+        <TextView
+            android:id="@+id/tvCT1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="CT-1"
+            android:layout_gravity="center"
+            android:textSize="28sp"
+            android:textAlignment="center"
+            android:textColor="#6b6b6b"
+            android:textStyle="bold"/>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="10dp">
+        <TextView
+            android:id="@+id/tvCT2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="CT-2"
+            android:layout_gravity="center"
+            android:textSize="28sp"
+            android:textAlignment="center"
+            android:textColor="#6b6b6b"
+            android:textStyle="bold"/>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="10dp">
+        <TextView
+            android:id="@+id/tvPUE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="PUE"
+            android:textSize="28sp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textColor="#6b6b6b"
+            android:textStyle="bold"/>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
+</LinearLayout>
